@@ -377,6 +377,19 @@
   }
 }
 
+
+.parallax-window {
+  min-height: 300px;
+  width: 100%;
+  background: transparent;
+  margin: 200px 0 80px;
+}
+
+.parallax-slider {
+  top: 0;
+  left: 0;
+}
+
 .new {
   margin-bottom: 80px;
   .section-inner {

@@ -73,11 +73,6 @@ select {
 }
 
 /* Blur images when they have no alt attribute */
-img:not([alt]) {
-  -webkit-filter: blur(10px);
-          filter: blur(10px);
-}
-
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {
@@ -1231,6 +1226,18 @@ footer .copyright {
     padding: 0;
     font-size: 1.8rem;
   }
+}
+
+.parallax-window {
+  min-height: 300px;
+  width: 100%;
+  background: transparent;
+  margin: 200px 0 80px;
+}
+
+.parallax-slider {
+  top: 0;
+  left: 0;
 }
 
 .new {
