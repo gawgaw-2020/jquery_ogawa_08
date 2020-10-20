@@ -1,0 +1,109 @@
+.section-heading {
+  font-family: AmericanTypewriter, serif;
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 16px 0;
+  margin: 0 0 40px;
+  opacity: 0;
+  @include mq(xl) {
+    font-size: 3.2rem;
+    margin: 48px 0 80px;
+  }
+}
+
+.section-inner {
+  padding-top: 40px;
+  width: 90%;
+  max-width: 1450px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0.5em 1em;
+  background-color: transparent;
+  transition: .4s;
+  border: 1px solid transparent;
+  &--ok {
+    color: $color-btn-ok__text;
+    background-color:$color-btn-ok__background;
+    border-color: $color-btn-ok__border;
+    &:hover {
+      background-color: lighten($color-btn-ok__background, 15%);
+    }
+  }
+  &--back {
+    color: $color-btn-back__text;
+    background-color:$color-btn-back__background;
+    border-color: $color-btn-back__border;
+    &:hover {
+      background-color: lighten($color-btn-back__background, 15%);
+    }
+  }
+  &--detail {
+    color: $color-btn-detail__text;
+    background-color:$color-btn-detail__background;
+    border-color: $color-btn-detail__border;
+    padding: 0.7em 0;
+    position: relative;
+    &::before {
+      content: '';
+      width: 30%;
+      position: absolute;
+      top: 50%;
+      left: -20%;
+      border-bottom: 1px solid $color-btn-detail__border;
+      transition: 0.4s;
+    }
+    &:hover::before {
+      left: -4%;
+    }
+  }
+  &--operationcart {
+    color: $color-btn-operationcart__text;
+    background-color:$color-btn-operationcart__background;
+    border-color: $color-btn-operationcart__border;
+    border-width: 2px;
+    font-weight: bold;
+    &:hover {
+      background-color: darken($color-btn-operationcart__background, 5%);
+    }
+  }
+
+}
+
+.label {
+  text-align: center;
+  &--price{
+    color: $color-labal-detail__text;
+    background-color: $color-labal-detail__background;
+    padding: 0.3em;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  &--current {
+    color: $color-labal-current__text;
+    background-color: $color-labal-current__background;
+    border: 2px solid $color-labal-current__border;
+  }
+  &--not-active {
+    color: $color-labal-not-active__text;
+    background-color: $color-labal-not-active__background;
+  }
+}
+
+.anchor-sm {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+.anchor-md {
+  padding-top: 120px;
+  margin-top: -120px;
+}
+.anchor-lg {
+  padding-top: 160px;
+  margin-top: -160px;
+}
+

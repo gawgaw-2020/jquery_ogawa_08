@@ -1,0 +1,65 @@
+// color palette
+
+$color-header__background: #333;
+$color-header__text: #fff;
+$color-header__ham-icon-background: #fff;
+
+$color-fv-box__background: rgba(0, 0, 0, 0.8);
+$color-fv-box__text: #fff;
+
+$color-introduce-section__background: rgba(255, 254, 235, 0.6);
+
+$color-item-list__text: #707070;
+
+$color-profile-card__border: #e3e3e3;
+$color-profile-card__background: #e3e3e3;
+
+$color-strength-item__border: #707070;
+
+$color-detail__price-text: #777;
+
+$color-detail-more__background: rgba(255, 254, 235, 0.6);
+
+$color-btn-ok__background: #479E9F;
+$color-btn-ok__text: #fff;
+$color-btn-ok__border: transparent;
+$color-btn-back__background: #333;
+$color-btn-back__text: #fff;
+$color-btn-back__border: transparent;
+$color-btn-detail__background: transparent;
+$color-btn-detail__text: #707070;
+$color-btn-detail__border: #707070;
+$color-btn-operationcart__background: #fff;
+$color-btn-operationcart__text: #479E9F;
+$color-btn-operationcart__border: #479E9F;
+
+$color-labal-detail__background: #978332;
+$color-labal-detail__text: #fff;
+$color-labal-detail__border: #707070;
+$color-labal-current__background: #fff;
+$color-labal-current__text: #978332;
+$color-labal-current__border: #978332;
+$color-labal-not-active__background: #e3e3e3;
+$color-labal-not-active__text: #fff;
+
+$color-footer__background: #e3e3e3;
+$color-footer__text: #333;
+$color-footer__border: #333;
+
+
+// break point
+
+$breakpoints: (
+  'sm': 'screen and (min-width: 400px)',
+  'md': 'screen and (min-width: 768px)',
+  'lg': 'screen and (min-width: 1000px)',
+  'xl': 'screen and (min-width: 1200px)',
+  'xxl': 'screen and (min-width: 1920px)',
+) !default;
+
+@mixin mq($breakpoint: md) {
+  @media #{map-get($breakpoints, $breakpoint)} {
+    @content;
+  }
+}
+
