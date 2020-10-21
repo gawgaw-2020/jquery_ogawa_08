@@ -2,6 +2,14 @@ $(function() {
   // 各要素がInViewしたら各要素にanimateCSSを適用
 
   // ロゴ
+  $('.logo02').on('inview', function(event, isInView) {
+    if (isInView) {
+      $('.logo02').addClass('animated rollIn');
+    } else {
+      $('.logo02').removeClass('animated rollIn');
+    }
+  });
+  // ロゴ
   $('.logo').on('inview', function(event, isInView) {
     if (isInView) {
       $('.logo').addClass('animated rollIn');
