@@ -265,18 +265,18 @@
         }
       }
       &__tab-image {
-        z-index: 0;
+        z-index: 999;
         display: none;
         @include mq() {
           display: block;
           width: 40%;
-          z-index: 50;
         }
         @include mq(lg) {
           display: none;
         }
       }
       &__pc-image {
+        z-index: 999;
         display: none;
         @include mq(lg) {
           display: block;
@@ -307,6 +307,7 @@
         }
       }
       &__image {
+        z-index: 999;
         margin: 0 calc(50% - 50vw);
         width: 100vw;
         @include mq() {
@@ -314,8 +315,8 @@
         }
       }
       &__text {
+        z-index: 50;
         opacity: 0;
-        z-index: -1;
         line-height: 2.5;
         width: 100vw;
         padding: 32px 16px;
