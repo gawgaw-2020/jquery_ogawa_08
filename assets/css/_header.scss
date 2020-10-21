@@ -10,6 +10,9 @@
     .product-logo {
       padding-left: 16px;
       display: flex;
+      .logo {
+        opacity: 0;
+      }
       a {
         user-select: none;
         margin-right: 16px;

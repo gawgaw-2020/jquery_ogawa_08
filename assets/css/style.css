@@ -258,6 +258,10 @@ img {
   display: flex;
 }
 
+.header .header-inner .product-logo .logo {
+  opacity: 0;
+}
+
 .header .header-inner .product-logo a {
   -webkit-user-select: none;
      -moz-user-select: none;
