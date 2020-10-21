@@ -2,10 +2,6 @@
 
 @charset "utf-8";
 
-// .fv__content-box .fv-box.red {
-//   background-color: red;
-// }
-
 .fv {
   @include mq() {
     position: relative;
