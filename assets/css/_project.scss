@@ -274,6 +274,7 @@
         @include mq() {
           display: block;
           width: 40%;
+          z-index: 50;
         }
         @include mq(lg) {
           display: none;

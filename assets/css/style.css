@@ -1085,6 +1085,7 @@ footer .copyright {
   .member__list .profile-card__tab-image {
     display: block;
     width: 40%;
+    z-index: 50;
   }
 }
 
