@@ -1,4 +1,17 @@
 $(function() {
+
+  $('.test').on('inview', function(event, isInView) {
+    $('test').each(function() {
+      if (isInView) {
+        $(this).addClass('animated rollIn');
+      } else {
+        $(this).removeClass('animated rollIn');
+      }
+    });
+  });
+
+
+
   // 各要素がInViewしたら各要素にanimateCSSを適用
 
   // ロゴ
@@ -19,13 +32,78 @@ $(function() {
   });
 
   // 各セクション
-  $('.js-fade-in-up').on('inview', function(event, isInView) {
+  
+  $('#js-introduce__heading').on('inview', function(event, isInView) {
     if (isInView) {
-      $('.js-fade-in-up').addClass('animated fadeInUp');
+      $(this).addClass('animated fadeInUp');
     } else {
-      $('.js-fade-in-up').removeClass('animated fadeInUp');
+      $(this).removeClass('animated fadeInUp');
     }
   });
+  $('#js-part-of-item__heading').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).addClass('animated fadeInUp');
+    } else {
+      $(this).removeClass('animated fadeInUp');
+    }
+  });
+  $('#js-member__heading').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).addClass('animated fadeInUp');
+    } else {
+      $(this).removeClass('animated fadeInUp');
+    }
+  });
+  $('#js-strength__heading').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).addClass('animated fadeInUp');
+    } else {
+      $(this).removeClass('animated fadeInUp');
+    }
+  });
+  $('#js-new__heading').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).addClass('animated fadeInUp');
+    } else {
+      $(this).removeClass('animated fadeInUp');
+    }
+  });
+  $('#js-products__heading').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).addClass('animated fadeInUp');
+    } else {
+      $(this).removeClass('animated fadeInUp');
+    }
+  });
+  $('#js-detail__heading').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).addClass('animated fadeInUp');
+    } else {
+      $(this).removeClass('animated fadeInUp');
+    }
+  });
+  $('#js-strength__heading02').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).addClass('animated fadeInUp');
+    } else {
+      $(this).removeClass('animated fadeInUp');
+    }
+  });
+  $('#js-detail-more__heading').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).addClass('animated fadeInUp');
+    } else {
+      $(this).removeClass('animated fadeInUp');
+    }
+  });
+  $('#js-carousel__heading').on('inview', function(event, isInView) {
+    if (isInView) {
+      $(this).addClass('animated fadeInUp');
+    } else {
+      $(this).removeClass('animated fadeInUp');
+    }
+  });
+
 
   // 商品ページの中間イメージ
   $('.js-pulse').on('inview', function(event, isInView) {

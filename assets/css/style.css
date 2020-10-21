@@ -267,6 +267,7 @@ img {
 }
 
 .header .header-inner .product-logo a img {
+  padding: 8px 0;
   height: 60px;
   width: auto;
 }
@@ -642,7 +643,7 @@ footer .copyright {
   footer .footer-inner div.footer-items .footer-icon {
     opacity: 0;
     width: 25%;
-    padding: 0 0 1.6rem;
+    padding-top: 30px;
     margin: 0 auto;
   }
   footer .footer-inner div.footer-items .footer-logo {
