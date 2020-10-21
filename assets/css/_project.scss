@@ -672,6 +672,14 @@
       .swiper-container {
         width: 80%;
         height: auto;
+        .swiper-slide {
+          height: 20vh;
+          img {
+            object-fit: cover; /* IE: not support */
+            width: 100%;
+            height: 100%;
+          }
+        }
       }
       .swiper-button-prev {
         outline: none;

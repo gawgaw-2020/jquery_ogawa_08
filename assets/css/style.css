@@ -1700,6 +1700,18 @@ footer .copyright {
   height: auto;
 }
 
+.carousel .section-inner .swiper-custom-parent .swiper-container .swiper-slide {
+  height: 20vh;
+}
+
+.carousel .section-inner .swiper-custom-parent .swiper-container .swiper-slide img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* IE: not support */
+  width: 100%;
+  height: 100%;
+}
+
 .carousel .section-inner .swiper-custom-parent .swiper-button-prev {
   outline: none;
   position: absolute;
