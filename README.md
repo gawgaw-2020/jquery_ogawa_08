@@ -12,6 +12,14 @@ http://oga-chan.sakura.ne.jp/jquery_ogawa_08/
 「カートに入れる」「ログインする」などのリンクは効いていません。
 また、誤字やサンプルテキストの部分もありますがご了承ください。
 
+製作期間：7日
+
+<img width="51%" alt="スクリーンショット 2020-11-14 7 17 09" src="https://user-images.githubusercontent.com/70194652/99126510-a81ef000-2649-11eb-8698-8656316e2c95.png">
+<img width="51%" alt="スクリーンショット 2020-11-14 7 17 59" src="https://user-images.githubusercontent.com/70194652/99126528-b10fc180-2649-11eb-853d-2eee297d1397.png">
+<img width="51%" alt="スクリーンショット 2020-11-14 7 18 18" src="https://user-images.githubusercontent.com/70194652/99126530-b2d98500-2649-11eb-88cc-a47f271a8489.png">
+<img width="51%" alt="スクリーンショット 2020-11-14 7 18 35" src="https://user-images.githubusercontent.com/70194652/99126533-b4a34880-2649-11eb-9050-03e5ce9241ec.png">
+
+
 # なぜチーズの通販サイトなのか
 
 * 勉強を始めた頃から作りたいサイトのイメージがあった
