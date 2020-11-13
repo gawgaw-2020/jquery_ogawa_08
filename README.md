@@ -1,7 +1,7 @@
 # チーズの通販サイト「Cheese Wagon」
 http://oga-chan.sakura.ne.jp/jquery_ogawa_08/  
 
-チーズの通販サイトを制作しました。
+架空のチーズの通販サイトを制作しました。
 
 作成したページは3ページで、  
 * トップページ
